@@ -11,7 +11,7 @@ and this is
 short
     INPUT
     text_input = CenterText.new(input)
-    expected = <<-EXPECTED
+    expected = <<-EXPECTED.chomp
                  this is a short line
 this is a really long line that has a lot of characters
                       and this is
